@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff - Register Courses</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Raleway:wght@300&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="staffStyles.css" />
+</head>
+
+<body>
+    <!-- navbar section -->
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+        <a class="navbar-brand" href="#">
+            <img class="brand-logo" src="../images/logo.png" width="50" height="50" alt="" loading="lazy" />
+            BRAND
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container reg-course-cont">
+        <div class="row">
+            <div class="col col-lg-8">
+                <hr>
+                <h3 class="font-weight-bold">All Courses</h3>
+                <hr>
+                <nav>
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link text-dark" href="#">First Year</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link text-dark" href="#">Second Year</a>
+                        </li>
+                        <li class="page-item" aria-current="page">
+                            <a class="page-link text-dark" href="#">Third Year</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link text-dark" href="#">Fourth Year</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <form class="filter-form" action="">
+                    <div class="form-group">
+                        <label for="">Department</label>
+                        <select class="form-control" required>
+                            <option value="" disabled selected>Select</option>
+                            <option value="">CSE</option>
+                            <option value="">ECE</option>
+                            <option value="">EEE</option>
+                            <option value="">IT</option>
+                            <option value="">MECH</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-primary course-reg-btn font-weight-bold">Filter by Department</button>
+                </form>
+
+                <div>
+                    <form action="">
+                        <table class="table table-hover">
+                            <thead class="thead-dark">
+                                <th>Sub Code</th>
+                                <th>Sub Name</th>
+                                <th>Register</th>
+                            </thead>
+                            <tr>
+                                <td>CS17852</td>
+                                <td>Data Structures</td>
+                                <td>
+                                    <button
+                                        class="btn btn-primary btn-block font-weight-bold course-reg-btn">Register</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>CS17852</td>
+                                <td>Data Structures</td>
+                                <td>
+                                    <button
+                                        class="btn btn-primary btn-block font-weight-bold course-reg-btn">Register</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>CS17852</td>
+                                <td>Data Structures</td>
+                                <td>
+                                    <button
+                                        class="btn btn-primary btn-block font-weight-bold course-reg-btn">Register</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+
+
+                </div>
+            </div>
+
+            <div class="col col-lg-4">
+                <div class="registered-courses-cont">
+                    <h3 class="font-weight-bold"><u>Registered Courses</u></h3>
+                    <h5 class="my-3">First Year</h5>
+                    <ul>
+                        <li>Python</li>
+                        <li>Physics</li>
+                        <li>Chemistry</li>
+                    </ul>
+                    <hr>
+                    <h5 class="my-3">Second Year</h5>
+                    <ul>
+                        <li>DAA</li>
+                        <li>CN</li>
+                        <li>DBMS</li>
+                    </ul>
+                    <hr>
+                    <h5 class="my-3">Third Year</h5>
+                    <ul>
+                        <li>DAA</li>
+                        <li>CN</li>
+                        <li>DBMS</li>
+                    </ul>
+                    <hr>
+                    <h5 class="my-3">Fourth Year</h5>
+                    <ul>
+                        <li>DAA</li>
+                        <li>CN</li>
+                        <li>DBMS</li>
+                    </ul>
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container-flex">
+        <footer></footer>
+    </div>
+
+</body>
+
+</html>

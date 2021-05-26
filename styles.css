@@ -1,0 +1,459 @@
+/* start of navbar  */
+
+.navbar {
+  background-color: #2bb2bb !important;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 0.1rem;
+}
+
+.nav-item {
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+.brand-logo {
+  border-radius: 35%;
+}
+
+/* end of navbar  */
+
+/* start of footer */
+
+footer {
+  margin: 0;
+  padding: 0;
+  background-color: #2bb2bb;
+  height: 5rem;
+}
+
+/* end of footer */
+
+/* start of login section */
+
+.form-bg {
+  background-color: #e4f9ff;
+  color: #0c056d;
+  font-family: serif;
+  border-radius: 15% !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
+}
+
+.form-bg:hover {
+  background-color: #2bb2bb;
+  color: white;
+  padding: 2% 2%;
+}
+
+.login-cont {
+  margin-top: 8rem;
+  height: 24rem;
+}
+
+.forgot-password-a {
+  color: black;
+  letter-spacing: 0.1rem;
+}
+
+.forgot-password-a:hover {
+  color: white;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* end of login section */
+
+/* start of courses section */
+
+.courses-cont {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: white;
+  color: black;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+.course-heading {
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  background-color: #2bb2bb;
+  color: black;
+  display: inline-block;
+  width: 15rem;
+  border-radius: 30%;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.course-heading:hover {
+  color: white;
+  padding: 1%;
+}
+
+.card {
+  margin: 10px 10px;
+  padding: 5% 5%;
+  border-radius: 15%;
+  background-color: #e4f9ff;
+  text-align: left;
+  margin-top: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
+}
+
+.card:hover {
+  background-color: #2bb2bb;
+  color: white;
+  padding: 6% 6%;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+/* end of courses section */
+
+/* start of dashboard  */
+
+.dashboard-cont {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: white;
+  color: black;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+.dashboard-items {
+  padding: 3% 3%;
+  border-radius: 15%;
+  background-color: #e4f9ff;
+  text-align: left;
+  margin-top: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
+}
+
+.dashboard-items:hover {
+  background-color: #2bb2bb;
+  color: white;
+  padding: 4%;
+}
+
+.dashboard-cont h3 {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #0c056d;
+}
+
+.dash-anch {
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  background-color: #2bb2bb;
+  color: black;
+  display: inline-block;
+  width: 15rem;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.dashboard-cont a {
+  transition: 0.5s;
+}
+
+.dashboard-cont a:hover {
+  text-decoration: none;
+  color: white;
+  padding: 1%;
+}
+
+.d-icon {
+  color: #87d4c5;
+  font-size: 2rem;
+}
+
+/* end of dashboard  */
+
+/* start of mcq section  */
+
+.mcq-cont {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.mcq-header {
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.2rem;
+  background-color: #2bb2bb;
+  text-align: left;
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ques-section {
+  margin-top: 3%;
+  background-color: #2bb2bb;
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.current-ques {
+  margin-top: 3%;
+  background-color: white;
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.question {
+  letter-spacing: 0.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+.question-no {
+  letter-spacing: 0.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ans-option {
+  display: inline-block;
+  width: 90%;
+  background-color: #e4f9ff;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 2% 2%;
+}
+
+.cur-ques-buttons {
+  margin: 2% 2%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ques-section-btn {
+  margin: 2% 2%;
+  border-radius: 35%;
+}
+
+.submit-test-btn{
+  margin: 3rem;
+}
+
+
+/* styling radio buttons  */
+input[type="radio"]:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: white;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid black;
+}
+
+input[type="radio"]:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #322f3d;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+/* end of mcq section */
+
+/* start of test summary section  */
+
+.test-summary-cont {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  animation: test-summary-animation 0.5s forwards;
+}
+
+.test-summary-header {
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  background-color: #2bb2bb;
+  color: black;
+  display: inline-block;
+  width: 15rem;
+  border-radius: 30%;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.test-summary-header:hover {
+  color: white;
+  padding: 1%;
+}
+
+.test-details-col {
+  padding: 3% 3%;
+  border-radius: 15%;
+  background-color: #e4f9ff;
+  text-align: left;
+  margin-top: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
+}
+
+.test-details-col:hover {
+  background-color: #2bb2bb;
+  color: white;
+  padding: 4%;
+}
+
+.summary-col {
+  padding: 3% 3%;
+  border-radius: 15%;
+  background-color: #e4f9ff;
+  text-align: left;
+  margin-top: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
+}
+
+.summary-col:hover {
+  background-color: #2bb2bb;
+  color: white;
+  padding: 4%;
+}
+
+.summary-key-span {
+  margin-right: 2rem;
+  font-size: large;
+  font-weight: bold;
+}
+
+.summary-value-span {
+  margin-left: 3rem;
+  font-size: large;
+  font-weight: lighter;
+}
+
+.summary-btn {
+  animation: test-summary-animation 0.5s forwards;
+  text-align: right;
+}
+
+.summary-btn button:hover {
+  padding: 1%;
+}
+
+@keyframes test-summary-animation {
+  0% {
+    margin-top: -50rem;
+    background-color: #2bb2bb;
+    color: white;
+  }
+
+  100% {
+    margin-top: 5rem;
+  }
+}
+
+/* end of test summary section*/
+
+/* start of takeTest-confirm section*/
+.takeTest-cont {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 5rem;
+  padding: 3% 3%;
+  border-radius: 15%;
+  background-color: #e4f9ff;
+  margin-top: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
+}
+
+.takeTest-cont:hover {
+  background-color: #2bb2bb;
+  color: white;
+  padding: 4%;
+}
+
+.takeTest-cont a {
+  margin: 2rem;
+  font-size: 2rem;
+}
+
+/* end of takeTest-confirm section*/
+
+/* start of testCompleted Section */
+.testCompleted-cont {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 5rem;
+  padding: 3% 3%;
+  border-radius: 15%;
+  background-color: #e4f9ff;
+  margin-top: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
+}
+
+.testCompleted-cont:hover {
+  background-color: #2bb2bb;
+  color: white;
+  padding: 4%;
+}
+
+.testCompleted-cont a {
+  margin: 2rem;
+  font-size: 2rem;
+}
+/* end of testCompleted Section */
+/*
+.upload-ques-cont {
+  display: none;
+}
+*/

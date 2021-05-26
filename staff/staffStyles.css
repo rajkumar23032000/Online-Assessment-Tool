@@ -1,0 +1,264 @@
+/* start of navbar  */
+
+.navbar {
+  background-color: #2bb2bb !important;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 0.1rem;
+}
+
+.nav-item {
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+.brand-logo {
+  border-radius: 35%;
+}
+
+/* end of navbar  */
+
+/* start of footer */
+
+footer {
+  margin: 0;
+  padding: 0;
+  background-color: #2bb2bb;
+  height: 5rem;
+}
+
+/* end of footer */
+
+/* start of login section */
+
+.form-bg {
+  background-color: #e4f9ff;
+  color: #0c056d;
+  font-family: serif;
+  border-radius: 15% !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
+}
+
+.form-bg:hover {
+  background-color: #2bb2bb;
+  color: white;
+  padding: 2% 2%;
+}
+
+.login-cont {
+  margin-top: 8rem;
+  height: 24rem;
+}
+
+.forgot-password-a {
+  color: black;
+  letter-spacing: 0.1rem;
+}
+
+.forgot-password-a:hover {
+  color: white;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* end of login section */
+
+/* start of staff upload ques page */
+.staff-homePage-cont {
+  margin-top: 3rem;
+}
+
+.year-cont {
+  margin-top: 5rem;
+}
+
+.card {
+  margin: 10px 10px;
+  border-radius: 15%;
+  background-color: #e4f9ff;
+  text-align: left;
+  margin-top: 2%;
+  padding: 3%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
+}
+
+.card:hover {
+  background-color: #2bb2bb;
+  color: white;
+}
+
+.card-header {
+  font-weight: bold;
+}
+
+.upload-ques-btn {
+  margin-top: 1rem;
+}
+
+.year-heading {
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  background-color: #2bb2bb;
+  color: black;
+  display: inline-block;
+  width: 15rem;
+  border-radius: 10%;
+  text-align: center;
+  transition: 0.5s;
+  padding: 0.5%;
+}
+
+.year-heading:hover {
+  color: white;
+}
+
+.modal-content {
+  background-color: #2bb2bb;
+  color: white;
+  padding: 2rem;
+  font-weight: bold;
+  border-radius: 10%;
+}
+
+hr {
+  background-color: black;
+}
+/* end of staff upload ques page */
+
+/* start of staff upload ques confirm page */
+
+.upload-ques-confirm-cont{
+  width: 30rem;
+  
+  margin-top: 10rem;
+  background-color: #2bb2bb;
+  color: white;
+  padding: 2rem;
+  font-weight: bold;
+  border-radius: 10%;
+  line-height: 1.5rem;
+}
+
+input{
+  display: block;
+}
+
+.upload-ques-confirm-btn{
+  margin-top: 1.5rem;
+}
+
+/* end of staff upload ques confirm page */
+
+
+/* start of admin question generate page */
+
+.admin-noOfQues-form-input1{
+  display: inline;
+  position: static;
+  margin: 1rem;
+}
+
+.admin-noOfQues-form-input2{
+  display: inline;
+  position: static;
+  margin: 1rem;
+  
+}
+
+/* end of admin question generate page */
+
+
+/* start of staff review ques page */
+
+.staff-reviewQues-cont{
+  margin-top: 2rem;
+}
+
+.reviewQues-heading{
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  background-color: #2bb2bb;
+  color: black;
+  display: inline-block;
+  width: 20rem;
+  border-radius: 10%;
+  text-align: center;
+  transition: 0.5s;
+  padding: 0.5%;
+}
+
+.reviewQues-heading:hover{
+  color: white;
+}
+
+/* end of staff review ques page */
+
+
+/* start of staff register courses page */
+
+.reg-course-cont{
+  margin-top: 2rem;
+}
+
+.filter-form{
+  border-style: outset;
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+
+.course-reg-btn{
+  background-color: #2bb2bb;
+}
+
+.course-reg-btn:hover{
+  background-color: teal;
+}
+
+.registered-courses-cont{
+  background-color: rgb(224, 221, 221);
+  color: black;
+  height: 100%;
+  border-style: groove;
+  padding: 2rem;
+}
+
+ul{
+  list-style-type: circle;
+}
+
+/* end of staff register courses page */

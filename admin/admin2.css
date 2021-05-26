@@ -1,0 +1,180 @@
+
+/* start of navbar  */
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 0.1rem;
+  }
+  
+  .nav-item {
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 0.1rem;
+  }
+  
+  .brand-logo {
+    border-radius: 35%;
+  }
+  
+  /* end of navbar  */
+
+  /* start of sidenav */
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #6f4a8e;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+   /* end of sidenav */
+
+  /* start of footer */
+/*
+footer {
+    position: relative;
+    margin-top: 8rem;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 6rem;
+  }*/
+
+footer{
+  position: relative;;
+  bottom:0;
+  width: 100%;
+  height: 3rem;
+  margin-bottom: 0;
+}
+
+
+  
+  /* end of footer */
+
+
+/* start of admin ques generate page */
+
+
+.generate-input{
+    text-align: right;
+}
+
+.btn{
+  padding: 0.3rem;
+}
+
+/* end of admin ques generate page */
+
+
+
+/* start of  Admin Homepage */
+
+.admin-home-cont{
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.btn{
+  margin: 2rem;
+}
+
+
+.card{
+  border: none;
+  width: 25rem;
+  transition: 0.2s;
+}
+
+.card:hover{
+  border-style: groove;
+  border-radius: 1rem;
+  background-color: #6f4a8e !important;
+  color: white;
+}
+
+/* end of  Admin Homepage */
+
+
+
+/* start of schedule exams page */
+
+.admin-cont{
+  margin-top: 3rem;
+}
+
+.upload-schedule-cont{
+  margin-top: 5rem;
+}
+
+.admin-btn{
+  width: 20rem; 
+  height: 2.5rem;
+  background-color: rgb(207, 207, 207);
+  color: black;
+  border: none;
+}
+
+.admin-btn:hover{
+  background-color: #6f4a8e;
+}
+
+
+.admin-form{
+  border-style: outset;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 1.5rem;
+}
+
+/* end of schedule exams page */
+
+/* start of upload users page */
+
+.upload-users-btn{
+  width: 15rem; 
+  height: 2.5rem;
+  background-color: rgb(207, 207, 207);
+  color: black;
+  border: none;
+}
+
+.upload-users-btn:hover{
+  background-color: #6f4a8e;
+}
+
+/* end of upload users page */
